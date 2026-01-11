@@ -35,15 +35,18 @@ If you have added this library as a git submodule, run the following command ins
 
 # Available Converters
 
-	- ValueConverters
-	InverseBoolConverter	=>	Flips true to false and vice versa.
-	StringNullOrEmptyToBooleanConverter	=>	Returns true if the string is null or empty; otherwise, false.
-	StringNullOrWhiteSpaceToBooleanConverter	=>	Returns true if the string is null, empty, or consists only of white-space characters; otherwise, false.
-	StringNullOrEmptyToInverseBooleanConverter	=>	Returns true if the string has content; returns false if the string is null or empty.
-	StringNullOrWhiteSpaceToInverseBooleanConverter	=>	Returns true only if the string contains actual non-whitespace characters.
+	### ValueConverters
+	- InverseBoolConverter	=>	Flips true to false and vice versa.
+	- StringNullOrEmptyToBooleanConverter	=>	Returns true if the string is null or empty; otherwise, false.
+	- StringNullOrEmptyToInverseBooleanConverter	=>	Returns true if the string has content; returns false if the string is null or empty.
+	- StringNullOrWhiteSpaceToBooleanConverter	=>	Returns true if the string is null, empty, or consists only of white-space characters; otherwise, false.
+	- StringNullOrWhiteSpaceToInverseBooleanConverter	=>	Returns true only if the string contains actual non-whitespace characters.
 
-	- MultiValueConverters
-	AndBooleanToBooleanMultiConverter	=>	Returns true only if all bindings are true.
+	### MultiValueConverters
+	- AndBooleanToBooleanMultiConverter	=>	Returns true only if all bindings are true.
+	- AndBooleanToInverseBooleanMultiConverter	=>	Returns false only if all input values are true.
+	- OrBooleanToBooleanMultiConverter	=>	Returns true if any of the input values are boolean true.
+	- OrBooleanToInverseBooleanMultiConverter	=> Returns false if at least one input value is true.
 
 # License
 Distributed under the MIT License. See LICENSE for more information.
