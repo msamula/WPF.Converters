@@ -27,6 +27,12 @@ Open your terminal in your main project's root folder and run:
 
 	3.3. Check the box for Wpf.Converters.
 
+# Updating the Submodule
+
+If you have added this library as a git submodule, run the following command inside the submodule's directory in your terminal:
+
+	git pull origin master
+
 # Available Converters
 
 	- ValueConverters
