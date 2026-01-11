@@ -37,6 +37,10 @@ If you have added this library as a git submodule, run the following command ins
 
 	- ValueConverters
 	InverseBoolConverter	=>	Flips true to false and vice versa.
+	StringNullOrEmptyToBooleanConverter	=>	Returns true if the string is null or empty; otherwise, false.
+	StringNullOrWhiteSpaceToBooleanConverter	=>	Returns true if the string is null, empty, or consists only of white-space characters; otherwise, false.
+	StringNullOrEmptyToInverseBooleanConverter	=>	Returns true if the string has content; returns false if the string is null or empty.
+	StringNullOrWhiteSpaceToInverseBooleanConverter	=>	Returns true only if the string contains actual non-whitespace characters.
 
 	- MultiValueConverters
 	AndBooleanToBooleanMultiConverter	=>	Returns true only if all bindings are true.

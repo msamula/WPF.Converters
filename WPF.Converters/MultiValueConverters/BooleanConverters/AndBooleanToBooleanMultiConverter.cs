@@ -3,6 +3,10 @@ using System.Windows.Data;
 
 namespace WPF.Converters.MultiValueConverters.BooleanConverters
 {
+    /// <summary>
+    /// A multi-value converter that returns true if all input values are boolean true.
+    /// Acts as a logical AND gate.
+    /// </summary>
     public class AndBooleanToBooleanMultiConverter : IMultiValueConverter
     {
         public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
