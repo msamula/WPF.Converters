@@ -3,4 +3,8 @@
                     xmlns:boolean="clr-namespace:WPF.Converters.ValueConverters.BooleanConverters">
 
     <boolean:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+    <boolean:StringNullOrEmptyToBooleanConverter x:Key="StringNullOrEmptyToBooleanConverter"/>
+    <boolean:StringNullOrEmptyToInverseBooleanConverter x:Key="StringNullOrEmptyToInverseBooleanConverter"/>
+    <boolean:StringNullOrWhiteSpaceToBooleanConverter x:Key="StringNullOrWhiteSpaceToBooleanConverter"/>
+    <boolean:StringNullOrWhiteSpaceToInverseBooleanConverter x:Key="StringNullOrWhiteSpaceToInverseBooleanConverter"/>
 </ResourceDictionary>

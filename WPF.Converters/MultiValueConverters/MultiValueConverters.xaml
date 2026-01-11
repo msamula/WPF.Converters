@@ -3,4 +3,7 @@
                     xmlns:boolean="clr-namespace:WPF.Converters.MultiValueConverters.BooleanConverters">
 
     <boolean:AndBooleanToBooleanMultiConverter x:Key="AndBooleanToBooleanMultiConverter"/>
+    <boolean:AndBooleanToInverseBooleanMultiConverter x:Key="AndBooleanToInverseBooleanMultiConverter"/>
+    <boolean:OrBooleanToBooleanMultiConverter x:Key="OrBooleanToBooleanMultiConverter"/>
+    <boolean:OrBooleanToInverseBooleanMultiConverter x:Key="OrBooleanToInverseBooleanMultiConverter"/>
 </ResourceDictionary>
