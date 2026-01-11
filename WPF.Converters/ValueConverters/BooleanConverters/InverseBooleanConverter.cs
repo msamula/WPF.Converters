@@ -3,6 +3,7 @@ using System.Windows.Data;
 
 namespace WPF.Converters.ValueConverters.BooleanConverters
 {
+    [ValueConversion(typeof(bool), typeof(bool))]
     public class InverseBooleanConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
