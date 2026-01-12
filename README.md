@@ -41,6 +41,10 @@ If you have added this library as a git submodule, run the following command ins
 	- StringNullOrEmptyToInverseBooleanConverter	=>	Returns true if the string has content; returns false if the string is null or empty.
 	- StringNullOrWhiteSpaceToBooleanConverter	=>	Returns true if the string is null, empty, or consists only of white-space characters; otherwise, false.
 	- StringNullOrWhiteSpaceToInverseBooleanConverter	=>	Returns true only if the string contains actual non-whitespace characters.
+	- NullToBooleanConverter	=>	Returns true if the value is null; otherwise, false.
+	- NullToInverseBooleanConverter	=>	Returns true if the object is not null; returns false if the object is null.
+	- CollectionEmptyToBooleanConverter	=>	Evaluates a collection and returns true if it is empty.
+	- CollectionEmptyToInverseBooleanConverter	=>	Evaluates a collection and returns true if it contains at least one item.
 
 	### MultiValueConverters
 	- AndBooleanToBooleanMultiConverter	=>	Returns true only if all bindings are true.

@@ -7,4 +7,8 @@
     <boolean:StringNullOrEmptyToInverseBooleanConverter x:Key="StringNullOrEmptyToInverseBooleanConverter"/>
     <boolean:StringNullOrWhiteSpaceToBooleanConverter x:Key="StringNullOrWhiteSpaceToBooleanConverter"/>
     <boolean:StringNullOrWhiteSpaceToInverseBooleanConverter x:Key="StringNullOrWhiteSpaceToInverseBooleanConverter"/>
+    <boolean:NullToBooleanConverter x:Key="NullToBooleanConverter"/>
+    <boolean:NullToInverseBooleanConverter x:Key="NullToInverseBooleanConverter"/>
+    <boolean:CollectionEmptyToBooleanConverter x:Key="CollectionEmptyToBooleanConverter"/>
+    <boolean:CollectionEmptyToInverseBooleanConverter x:Key="CollectionEmptyToInverseBooleanConverter"/>
 </ResourceDictionary>
