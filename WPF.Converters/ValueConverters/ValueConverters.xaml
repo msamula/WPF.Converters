@@ -1,6 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:boolean="clr-namespace:WPF.Converters.ValueConverters.BooleanConverters">
+                    xmlns:boolean="clr-namespace:WPF.Converters.ValueConverters.BooleanConverters"
+                    xmlns:visibility="clr-namespace:WPF.Converters.ValueConverters.VisibilityConverters">
 
     <boolean:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
     <boolean:StringNullOrEmptyToBooleanConverter x:Key="StringNullOrEmptyToBooleanConverter"/>
@@ -11,4 +12,9 @@
     <boolean:NullToInverseBooleanConverter x:Key="NullToInverseBooleanConverter"/>
     <boolean:CollectionEmptyToBooleanConverter x:Key="CollectionEmptyToBooleanConverter"/>
     <boolean:CollectionEmptyToInverseBooleanConverter x:Key="CollectionEmptyToInverseBooleanConverter"/>
+    
+    <visibility:NullToVisibilityConverter x:Key="NullToVisibilityConverter"/>
+    <visibility:NullToInverseVisibilityConverter x:Key="NullToInverseVisibilityConverter"/>
+    <visibility:CollectionEmptyToVisibilityConverter x:Key="CollectionEmptyToVisibilityConverter"/>
+    <visibility:CollectionEmptyToInverseVisibilityConverter x:Key="CollectionEmptyToInverseVisibilityConverter"/>
 </ResourceDictionary>

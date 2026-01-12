@@ -46,6 +46,11 @@ If you have added this library as a git submodule, run the following command ins
 	- CollectionEmptyToBooleanConverter	=>	Evaluates a collection and returns true if it is empty.
 	- CollectionEmptyToInverseBooleanConverter	=>	Evaluates a collection and returns true if it contains at least one item.
 
+	- NullToVisibilityConverter	=>	Returns Visible if the value is null; Collapsed if the value has an object.
+	- NullToInverseVisibilityConverter	=>	Returns Collapsed if the value is null; Visible if the value has an object.
+	- CollectionEmptyToVisibilityConverter	=>	Evaluates a collection and returns Visibility.Visible if it is empty.
+	- CollectionEmptyToInverseVisibilityConverter	=>	Evaluates a collection and returns Visibility.Visible if it contains items.
+
 	### MultiValueConverters
 	- AndBooleanToBooleanMultiConverter	=>	Returns true only if all bindings are true.
 	- AndBooleanToInverseBooleanMultiConverter	=>	Returns false only if all input values are true.
