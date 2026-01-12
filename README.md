@@ -55,6 +55,9 @@ If you have added this library as a git submodule, run the following command ins
 	- OrBooleanToBooleanMultiConverter	=>	Returns true if any of the input values are boolean true.
 	- OrBooleanToInverseBooleanMultiConverter	=> Returns false if at least one input value is true.
 
+	- AndBooleanToVisibilityMultiConverter	=>	Returns Visible only if all input values are true.
+	- AndBooleanToInverseVisibilityMultiConverter	=>	Returns Visible if any input value is false, null, or unset.
+
 # License
 MIT License
 

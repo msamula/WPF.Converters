@@ -1,9 +1,13 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:boolean="clr-namespace:WPF.Converters.MultiValueConverters.BooleanConverters">
+                    xmlns:boolean="clr-namespace:WPF.Converters.MultiValueConverters.BooleanConverters"
+                    xmlns:visibility="clr-namespace:WPF.Converters.MultiValueConverters.VisibilityConverters">
 
     <boolean:AndBooleanToBooleanMultiConverter x:Key="AndBooleanToBooleanMultiConverter"/>
     <boolean:AndBooleanToInverseBooleanMultiConverter x:Key="AndBooleanToInverseBooleanMultiConverter"/>
     <boolean:OrBooleanToBooleanMultiConverter x:Key="OrBooleanToBooleanMultiConverter"/>
     <boolean:OrBooleanToInverseBooleanMultiConverter x:Key="OrBooleanToInverseBooleanMultiConverter"/>
+
+    <visibility:AndBooleanToVisibilityMultiConverter x:Key="AndBooleanToVisibilityMultiConverter"/>
+    <visibility:AndBooleanToInverseVisibilityMultiConverter x:Key="AndBooleanToInverseVisibilityMultiConverter"/>
 </ResourceDictionary>
