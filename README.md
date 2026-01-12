@@ -2,7 +2,6 @@
 A collection of IValueConverter and IMultiValueConverter implementations to simplify data binding in WPF applications.
 
 # Installation (Git Submodule)
-
 Since this library is not yet on NuGet, the recommended way to use it is as a Git submodule. 
 This allows you to keep the library updated while keeping it inside your own repository.
 
@@ -28,7 +27,6 @@ Open your terminal in your main project's root folder and run:
 	3.3. Check the box for Wpf.Converters.
 
 # Updating the Submodule
-
 If you have added this library as a git submodule, run the following command inside the submodule's directory in your terminal:
 
 	git pull origin master
@@ -58,4 +56,24 @@ If you have added this library as a git submodule, run the following command ins
 	- OrBooleanToInverseBooleanMultiConverter	=> Returns false if at least one input value is true.
 
 # License
-Distributed under the MIT License. See LICENSE for more information.
+MIT License
+
+Copyright (c) 2026 MICHAEL SAMULA
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
