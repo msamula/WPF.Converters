@@ -48,6 +48,11 @@ If you have added this library as a git submodule, run the following command ins
 	- NullToInverseVisibilityConverter	=>	Returns Collapsed if the value is null; Visible if the value has an object.
 	- CollectionEmptyToVisibilityConverter	=>	Evaluates a collection and returns Visibility.Visible if it is empty.
 	- CollectionEmptyToInverseVisibilityConverter	=>	Evaluates a collection and returns Visibility.Visible if it contains items.
+	- InverseVisibilityConverter	=>	Flips a Visibility value. Visible becomes Collapsed; Collapsed/Hidden becomes Visible.
+
+	- StringToUpperConverter	=>	Transforms the string to uppercase.
+	- StringToLowerConverter	=>	Transforms the string to lowercase.
+	- TypeToStringConverter	=>	Converts an object instance into its Type Name as a string.
 
 	### MultiValueConverters
 	- AndBooleanToBooleanMultiConverter	=>	Returns true only if all bindings are true.
