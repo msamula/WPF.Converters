@@ -8,4 +8,19 @@
 	<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
 
+	<PropertyGroup>
+		<Authors>Michael Samula</Authors>
+		<Product>MSamula.WpfConverters</Product>
+		<RepositoryUrl>https://github.com/msamula/WPF.Converters.git</RepositoryUrl>
+		<Description>A collection of common, reusable IValueConverter and IMultiValueConverter implementations for WPF applications.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<AssemblyVersion>0.1.0.0</AssemblyVersion>
+		<FileVersion>0.1.0.0</FileVersion>
+		<Version>0.1.0</Version>
+		<InformationalVersion>0.1.0</InformationalVersion>
+	</PropertyGroup>
 </Project>
