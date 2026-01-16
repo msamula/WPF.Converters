@@ -11,10 +11,12 @@
 	<PropertyGroup>
 		<Authors>Michael Samula</Authors>
 		<Product>MSamula.WpfConverters</Product>
-		<RepositoryUrl>https://github.com/msamula/WPF.Converters.git</RepositoryUrl>
 		<Description>A collection of common, reusable IValueConverter and IMultiValueConverter implementations for WPF applications.</Description>
+		<RepositoryUrl>https://github.com/msamula/WPF.Converters.git</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/msamula/WPF.Converters</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageTags>WPF;Converters;MVVM;ValueConverter;MultiValueConverter</PackageTags>
 	</PropertyGroup>
 
 	<PropertyGroup>
