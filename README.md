@@ -26,6 +26,23 @@ Open your terminal in your main project's root folder and run:
 
 	3.3. Check the box for Wpf.Converters.
 
+4. Add Converter Resources to App.xaml
+				
+	4.1. Open App.xaml in your main project.
+
+	4.2. Inside the <Application.Resources> section, merge the converter resource dictionaries from the library:
+		
+		<Application.Resources>
+			<ResourceDictionary>
+				<ResourceDictionary.MergedDictionaries>
+					<ResourceDictionary Source="pack://application:,,,/Wpf.Converters;component/Resources/ValueConverters.xaml"/>
+					<ResourceDictionary Source="pack://application:,,,/Wpf.Converters;component/Resources/MultiValueConverters.xaml"/>
+				</ResourceDictionary.MergedDictionaries>
+			</ResourceDictionary>			
+		</Application.Resources>
+
+	4.3. All the value converters from the library are now available throughout your application.
+
 # Updating the Submodule
 If you have added this library as a git submodule, run the following command inside the submodule's directory in your terminal:
 
