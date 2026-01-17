@@ -35,8 +35,8 @@ Open your terminal in your main project's root folder and run:
 		<Application.Resources>
 			<ResourceDictionary>
 				<ResourceDictionary.MergedDictionaries>
-					<ResourceDictionary Source="pack://application:,,,/Wpf.Converters;component/Resources/ValueConverters.xaml"/>
-					<ResourceDictionary Source="pack://application:,,,/Wpf.Converters;component/Resources/MultiValueConverters.xaml"/>
+					<ResourceDictionary Source="/WPF.Converters;component/ValueConverters/ValueConverters.xaml"/>
+					<ResourceDictionary Source="/WPF.Converters;component/MultiValueConverters/MultiValueConverters.xaml"/>
 				</ResourceDictionary.MergedDictionaries>
 			</ResourceDictionary>			
 		</Application.Resources>
