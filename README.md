@@ -71,6 +71,9 @@ If you have added this library as a git submodule, run the following command ins
 	- StringToLowerConverter	=>	Transforms the string to lowercase.
 	- TypeToStringConverter	=>	Converts an object instance into its Type Name as a string.
 
+	- ColorToSolidColorBrushConverter	=>	Converts a Color into a SolidColorBrush.
+	- SolidColorBrushToColorConverter	=>	Extracts the Color from a SolidColorBrush.
+
 	### MultiValueConverters
 	- AndBooleanToBooleanMultiConverter	=>	Returns true only if all bindings are true.
 	- AndBooleanToInverseBooleanMultiConverter	=>	Returns false only if all input values are true.
