@@ -69,6 +69,7 @@ git pull origin master
 - **NullToInverseBooleanConverter**	=>	Returns true if the object is not null; returns false if the object is null.
 - **CollectionEmptyToBooleanConverter**	=>	Evaluates a collection and returns true if it is empty.
 - **CollectionEmptyToInverseBooleanConverter**	=>	Evaluates a collection and returns true if it contains at least one item.
+- **VisibilityToBooleanConverter**	=>	Converts a Visibility enum value to a boolean. Visible maps to True; Collapsed and Hidden map to False.
 
 #### Visibility Converters
 - **NullToVisibilityConverter**	=>	Returns Visible if the value is null; Collapsed if the value has an object.

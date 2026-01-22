@@ -15,7 +15,8 @@
     <boolean:NullToInverseBooleanConverter x:Key="NullToInverseBooleanConverter"/>
     <boolean:CollectionEmptyToBooleanConverter x:Key="CollectionEmptyToBooleanConverter"/>
     <boolean:CollectionEmptyToInverseBooleanConverter x:Key="CollectionEmptyToInverseBooleanConverter"/>
-    
+    <boolean:VisibilityToBooleanConverter x:Key="VisibilityToBooleanConverter"/>
+
     <visibility:NullToVisibilityConverter x:Key="NullToVisibilityConverter"/>
     <visibility:NullToInverseVisibilityConverter x:Key="NullToInverseVisibilityConverter"/>
     <visibility:CollectionEmptyToVisibilityConverter x:Key="CollectionEmptyToVisibilityConverter"/>
