@@ -29,6 +29,7 @@
 
     <media:ColorToSolidColorBrushConverter x:Key="ColorToSolidColorBrushConverter"/>
     <media:SolidColorBrushToColorConverter x:Key="SolidColorBrushToColorConverter"/>
+    <media:BooleanToOpacityConverter x:Key="BooleanToOpacityConverter"/>
 
     <math:DoubleMathConverter x:Key="DoubleMathConverter"/>
 </ResourceDictionary>

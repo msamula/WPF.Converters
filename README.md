@@ -86,6 +86,7 @@ git pull origin master
 #### Media Converters
 - **ColorToSolidColorBrushConverter**	=>	Converts a Color into a SolidColorBrush.
 - **SolidColorBrushToColorConverter**	=>	Extracts the Color from a SolidColorBrush.
+- **BooleanToOpacityConverter** =>	Converts a boolean to an opacity value (double). True returns 1.0. False returns a value defined in the ConverterParameter (default 0.0).
 
 #### Math Converters
 - **DoubleMathConverter**	=>	Performs basic arithmetic operations on a double value.
