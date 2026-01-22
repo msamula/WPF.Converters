@@ -1,9 +1,10 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:boolean="clr-namespace:WPF.Converters.ValueConverters.BooleanConverters"
-                    xmlns:visibility="clr-namespace:WPF.Converters.ValueConverters.VisibilityConverters"
+                    xmlns:math="clr-namespace:WPF.Converters.ValueConverters.MathConverters"
+                    xmlns:media="clr-namespace:WPF.Converters.ValueConverters.MediaConverters"
                     xmlns:string="clr-namespace:WPF.Converters.ValueConverters.StringConverters"
-                    xmlns:media="clr-namespace:WPF.Converters.ValueConverters.MediaConverters">
+                    xmlns:visibility="clr-namespace:WPF.Converters.ValueConverters.VisibilityConverters">
 
     <boolean:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
     <boolean:StringNullOrEmptyToBooleanConverter x:Key="StringNullOrEmptyToBooleanConverter"/>
@@ -27,4 +28,6 @@
 
     <media:ColorToSolidColorBrushConverter x:Key="ColorToSolidColorBrushConverter"/>
     <media:SolidColorBrushToColorConverter x:Key="SolidColorBrushToColorConverter"/>
+
+    <math:DoubleMathConverter x:Key="DoubleMathConverter"/>
 </ResourceDictionary>
