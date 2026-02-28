@@ -22,6 +22,7 @@
     <visibility:CollectionEmptyToVisibilityConverter x:Key="CollectionEmptyToVisibilityConverter"/>
     <visibility:CollectionEmptyToInverseVisibilityConverter x:Key="CollectionEmptyToInverseVisibilityConverter"/>
     <visibility:InverseVisibilityConverter x:Key="InverseVisibilityConverter"/>
+    <visibility:InverseBooleanToVisibilityConverter x:Key="InverseBooleanToVisibilityConverter"/>
 
     <string:StringToUpperConverter x:Key="StringToUpperConverter"/>
     <string:StringToLowerConverter x:Key="StringToLowerConverter"/>
