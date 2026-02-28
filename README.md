@@ -77,6 +77,7 @@ git pull origin master
 - **CollectionEmptyToVisibilityConverter**	=>	Evaluates a collection and returns Visibility.Visible if it is empty.
 - **CollectionEmptyToInverseVisibilityConverter**	=>	Evaluates a collection and returns Visibility.Visible if it contains items.
 - **InverseVisibilityConverter**	=>	Flips a Visibility value. Visible becomes Collapsed; Collapsed/Hidden becomes Visible.
+- **InverseBooleanToVisibilityConverter**	=>	Returns Visible if the value is false; Collapsed if the value is true.
 
 #### String Converters
 - **StringToUpperConverter**	=>	Transforms the string to uppercase.
